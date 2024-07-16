@@ -12,7 +12,7 @@ RegisterServerEvent('sv-kodzagrozenia:webhook', function(color, message)
         }
     }
 
-    PerformHttpRequest('https://discord.com/api/webhooks/1262402927243300864/h7zhecmMpd35R6kh2NngpgXKf9xG4Ba9TatsqyWsPxjZXQEaCk3V07xc-AOstJzfXj2i', function(err, text, headers) end, 'POST', json.encode({username = "Los Santos Police Department", avatar_url = 'https://cdn.discordapp.com/attachments/920286977448890439/1262402132116766730/latest.png?ex=6696771a&is=6695259a&hm=a0804c9aee69ad6c3648973d94f37ecd22e1963e070036c36d0e2e90be535013&', embeds = content}), { ['Content-Type'] = 'application/json' })
+    PerformHttpRequest('your-webhook', function(err, text, headers) end, 'POST', json.encode({username = "Los Santos Police Department", avatar_url = 'https://cdn.discordapp.com/attachments/920286977448890439/1262402132116766730/latest.png?ex=6696771a&is=6695259a&hm=a0804c9aee69ad6c3648973d94f37ecd22e1963e070036c36d0e2e90be535013&', embeds = content}), { ['Content-Type'] = 'application/json' })
 
 end)
 
