@@ -1,5 +1,3 @@
-ESX = exports.es_extended.getSharedObject()
-
 exports.ox_target:addBoxZone({
 	coords = vec3(442.0, -982.0, 31.0),
 	size = vec3(1, 3, 2),
